@@ -1,0 +1,163 @@
+/* */
+/* Global styles */
+/* */
+
+@font-face {
+  font-family: 'LaNord';
+  src: url('../fonts/LaNord.otf');
+}
+
+@font-face {
+  font-family: 'Wremena_Light';
+  src: url('../fonts/Wremena_Light.otf');
+}
+
+@font-face {
+  font-family: 'Bespoke';
+  src: url('../fonts/Bespoke.otf');
+}
+
+body {
+  cursor: default;
+  overflow: hidden;
+  font-family: 'Wremena_Light', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.interface > a {
+  color: #513bfd;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5 {
+  text-decoration: none;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+
+.gradient {
+  background: rgba(255, 145, 83, 0.13);
+}
+
+.gradient:before,
+.gradient:after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  width: 100%;
+  height: 10%;
+}
+
+.gradient:before {
+  background: linear-gradient(to bottom, rgba(255, 145, 83, 0.13) 0%, transparent 100%);
+}
+
+.gradient:after {
+  background: linear-gradient(to bottom, rgba(255, 145, 83, 0.13) 0%, transparent 100%);
+  bottom: 0;
+}
+
+.interface {
+  color: #513bfd;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: 'Bespoke', sans-serif;
+  margin: 15px 0 0 30px;
+}
+
+.metadata {
+  color: #513bfd;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-family: 'Bespoke', sans-serif;
+}
+
+.tag {
+  border: 1px solid #6262F4;
+  border-radius: 53px;
+  padding: 2px 7px;
+  height: 15px;
+  font-family: Bespoke;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #6262F4;
+  margin: 0 5px;
+}
+
+.date, .work, .blog, .teaching, .publications, .projects , .presentations , .talks, .research {
+  font-family: Bespoke;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 13px;
+  color: #fff;
+  padding: 2px 20px;
+  text-transform: uppercase;
+}
+
+.date {
+  background-color: #513bfd;
+  border: 1px solid #513bfd;
+}
+
+.work {
+  background-color: none;
+  color: #513bfd;
+  border: 1px solid transparent;
+}
+
+.blog {
+  background-color: #a2d2dd;
+  border: 1px solid #a2d2dd;
+}
+
+.teaching {
+  background-color: #6F9AAD;
+  border: 1px solid #6F9AAD;
+}
+
+.publications {
+  background-color: #E79180;
+  border: 1px solid #E79180;
+}
+
+.projects {
+  background-color: #F4D791;
+  border: 1px solid #F4D791;
+}
+
+.presentations {
+  background-color: #E9B7BA;
+  border: 1px solid #E9B7BA;
+} 
+
+.talks {
+  background-color: #ccc;
+  border: 1px solid #ccc;
+}
+
+.research {
+  background-color: #ccc;
+  border: 1px solid #ccc;
+}
+

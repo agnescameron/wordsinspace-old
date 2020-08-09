@@ -107,8 +107,6 @@ module.exports = {
         appElement: '#___gatsby',
         modalProps: { },
       }
-    },
-  'gatsby-redirect-from',
-  'gatsby-plugin-meta-redirect'
+    }
   ],
 }

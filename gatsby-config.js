@@ -108,12 +108,7 @@ module.exports = {
         modalProps: { },
       }
     },
-    {
-      resolve: 'gatsby-redirect-from',
-      options: {
-        query: 'allMdx'
-      }
-    },
-  'gatsby-plugin-meta-redirect' // make sure this is always the last one
+    `gatsby-redirect-from`,
+    `gatsby-plugin-meta-redirect` // make sure this is always the last one
   ],
 }

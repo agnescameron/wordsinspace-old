@@ -75,6 +75,7 @@ export default function postTemplate({ data }) {
               justifyContent: "space-evenly",
               margin: "5vh 0",
               width: "70vw",
+              textTransform: 'none'
             }}
           >
             <div

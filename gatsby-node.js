@@ -2,7 +2,8 @@ const path = require(`path`)
 
 exports.createPages = async ({ actions, graphql }) => {
   const { createPage } = actions
-  
+  // const { createRedirect } = actions
+  // createRedirect({ fromPath: '/about', toPath: '/patoto', isPermanent: true })
   // ------------
   // ------------ Create Pages and Posts endpoints
   // ------------

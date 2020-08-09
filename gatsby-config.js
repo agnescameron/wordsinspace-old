@@ -108,7 +108,6 @@ module.exports = {
         modalProps: { },
       }
     },
-    `gatsby-redirect-from`,
-    `gatsby-plugin-meta-redirect` // make sure this is always the last one
+    `gatsby-plugin-netlify`
   ],
 }

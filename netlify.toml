@@ -5,7 +5,7 @@
 	force = true
 
 [[redirects]]
-	from = "/publications/:slug"
+	from = "/presentations/:slug"
 	to = "/:slug"
 	status = 301
 	force = true

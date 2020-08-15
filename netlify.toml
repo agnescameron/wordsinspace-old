@@ -1,11 +1,23 @@
 [[redirects]]
-	from = "/publications"
-	to = "/about"
+	from = "/shannon/:slug"
+	to = "/:slug"
 	status = 200
 	force = true
 
 [[redirects]]
 	from = "/presentations/:slug"
 	to = "/:slug"
-	status = 301
+	status = 200
+	force = true
+
+[[redirects]]
+	from = "/publications/:slug"
+	to = "/:slug"
+	status = 200
+	force = true
+
+[[redirects]]
+	from = "/projects/:slug"
+	to = "/:slug"
+	status = 200
 	force = true
